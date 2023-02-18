@@ -9,11 +9,11 @@ int main() {
 	
 	
 	if (n > 0){
-	    printf("is positive");
-	}else if (n == 0){
-	    printf("is Zero");
+	   printf("%d is positive\n", n);
+	}else if (n < 0){
+	    printf("%d is negative\n", n);
 	}else{
-	    printf("is negative");
+	    printf("%d is zero\n", n);
 	}
 	return (0);
 }
