@@ -17,7 +17,7 @@ int main(void)
 
   password[PASSWORD_LEN] = '\0';
 
-  printf("%s\n", password);
+  printf("Tada! Congrats");
 
   return EXIT_SUCCESS;
 }
